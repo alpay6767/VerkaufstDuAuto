@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636FC9D53C25D028275A238A /* Pods_VerkaufstDuAuto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E6E2D39B7906A9D6429625 /* Pods_VerkaufstDuAuto.framework */; };
+		880E18C626FF7FB500F555EC /* AutoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E18C526FF7FB500F555EC /* AutoDetailsView.swift */; };
+		880E18C926FF8AC000F555EC /* merkenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E18C826FF8AC000F555EC /* merkenView.swift */; };
+		885A79CF26FE7941006E0F04 /* BilderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A79CE26FE7941006E0F04 /* BilderCell.swift */; };
+		885A79D226FE8147006E0F04 /* KontaktdatenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A79D126FE8147006E0F04 /* KontaktdatenView.swift */; };
+		885A79D526FE84AB006E0F04 /* fbhandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A79D426FE84AB006E0F04 /* fbhandler.swift */; };
+		885A79EF26FE8650006E0F04 /* Bild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A79EE26FE8650006E0F04 /* Bild.swift */; };
+		885A79F226FE9351006E0F04 /* InserateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A79F126FE9351006E0F04 /* InserateCell.swift */; };
+		88981B6C26FD10DE0004512B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88981B6B26FD10DE0004512B /* GoogleService-Info.plist */; };
+		88981B9426FD162F0004512B /* SuchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981B9326FD162F0004512B /* SuchenView.swift */; };
+		88981BAB26FD1CF80004512B /* VerkaufenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981BAA26FD1CF80004512B /* VerkaufenView.swift */; };
+		88981BDC26FD305A0004512B /* BilderWaehlen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981BDB26FD305A0004512B /* BilderWaehlen.swift */; };
+		889F60792700A35C0094CD67 /* mapTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F60782700A35C0094CD67 /* mapTab.swift */; };
+		88A5ABC7270116760015873A /* infoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5ABC6270116760015873A /* infoTab.swift */; };
+		88AC7F7626FCA546009B1AF0 /* Inserat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC7F7526FCA546009B1AF0 /* Inserat.swift */; };
 		88AD35AE26FC99A400DFE3C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD35AD26FC99A400DFE3C0 /* AppDelegate.swift */; };
 		88AD35B026FC99A400DFE3C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD35AF26FC99A400DFE3C0 /* SceneDelegate.swift */; };
-		88AD35B226FC99A400DFE3C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD35B126FC99A400DFE3C0 /* ViewController.swift */; };
 		88AD35B526FC99A400DFE3C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AD35B326FC99A400DFE3C0 /* Main.storyboard */; };
 		88AD35B726FC99A500DFE3C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AD35B626FC99A500DFE3C0 /* Assets.xcassets */; };
 		88AD35BA26FC99A500DFE3C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AD35B826FC99A500DFE3C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9276FF5D48D118A52A7EC5 /* Pods-VerkaufstDuAuto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerkaufstDuAuto.release.xcconfig"; path = "Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto.release.xcconfig"; sourceTree = "<group>"; };
+		880E18C526FF7FB500F555EC /* AutoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDetailsView.swift; sourceTree = "<group>"; };
+		880E18C826FF8AC000F555EC /* merkenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merkenView.swift; sourceTree = "<group>"; };
+		885A79CE26FE7941006E0F04 /* BilderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilderCell.swift; sourceTree = "<group>"; };
+		885A79D126FE8147006E0F04 /* KontaktdatenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontaktdatenView.swift; sourceTree = "<group>"; };
+		885A79D426FE84AB006E0F04 /* fbhandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbhandler.swift; sourceTree = "<group>"; };
+		885A79EE26FE8650006E0F04 /* Bild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bild.swift; sourceTree = "<group>"; };
+		885A79F126FE9351006E0F04 /* InserateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserateCell.swift; sourceTree = "<group>"; };
+		88981B6B26FD10DE0004512B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88981B9326FD162F0004512B /* SuchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuchenView.swift; sourceTree = "<group>"; };
+		88981BAA26FD1CF80004512B /* VerkaufenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkaufenView.swift; sourceTree = "<group>"; };
+		88981BDB26FD305A0004512B /* BilderWaehlen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilderWaehlen.swift; sourceTree = "<group>"; };
+		889F60782700A35C0094CD67 /* mapTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapTab.swift; sourceTree = "<group>"; };
+		88A5ABC6270116760015873A /* infoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoTab.swift; sourceTree = "<group>"; };
+		88AC7F7526FCA546009B1AF0 /* Inserat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inserat.swift; sourceTree = "<group>"; };
 		88AD35AA26FC99A400DFE3C0 /* VerkaufstDuAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkaufstDuAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AD35AD26FC99A400DFE3C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88AD35AF26FC99A400DFE3C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88AD35B126FC99A400DFE3C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88AD35B426FC99A400DFE3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88AD35B626FC99A500DFE3C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AD35B926FC99A500DFE3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AD35BB26FC99A500DFE3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9929A85C6C87D44DF3416C /* Pods-VerkaufstDuAuto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerkaufstDuAuto.debug.xcconfig"; path = "Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E6E2D39B7906A9D6429625 /* Pods_VerkaufstDuAuto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerkaufstDuAuto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636FC9D53C25D028275A238A /* Pods_VerkaufstDuAuto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C228B81B39E12C5864BA5A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E6E2D39B7906A9D6429625 /* Pods_VerkaufstDuAuto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71C634A3A8479F3CDF1DEF35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9929A85C6C87D44DF3416C /* Pods-VerkaufstDuAuto.debug.xcconfig */,
+				1F9276FF5D48D118A52A7EC5 /* Pods-VerkaufstDuAuto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88AD35A126FC99A400DFE3C0 = {
 			isa = PBXGroup;
 			children = (
 				88AD35AC26FC99A400DFE3C0 /* VerkaufstDuAuto */,
 				88AD35AB26FC99A400DFE3C0 /* Products */,
+				71C634A3A8479F3CDF1DEF35 /* Pods */,
+				5C228B81B39E12C5864BA5A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +106,26 @@
 		88AD35AC26FC99A400DFE3C0 /* VerkaufstDuAuto */ = {
 			isa = PBXGroup;
 			children = (
+				88981B6B26FD10DE0004512B /* GoogleService-Info.plist */,
 				88AD35AD26FC99A400DFE3C0 /* AppDelegate.swift */,
 				88AD35AF26FC99A400DFE3C0 /* SceneDelegate.swift */,
-				88AD35B126FC99A400DFE3C0 /* ViewController.swift */,
 				88AD35B326FC99A400DFE3C0 /* Main.storyboard */,
 				88AD35B626FC99A500DFE3C0 /* Assets.xcassets */,
 				88AD35B826FC99A500DFE3C0 /* LaunchScreen.storyboard */,
 				88AD35BB26FC99A500DFE3C0 /* Info.plist */,
+				88AC7F7526FCA546009B1AF0 /* Inserat.swift */,
+				88981B9326FD162F0004512B /* SuchenView.swift */,
+				88981BAA26FD1CF80004512B /* VerkaufenView.swift */,
+				88981BDB26FD305A0004512B /* BilderWaehlen.swift */,
+				885A79CE26FE7941006E0F04 /* BilderCell.swift */,
+				885A79D126FE8147006E0F04 /* KontaktdatenView.swift */,
+				885A79D426FE84AB006E0F04 /* fbhandler.swift */,
+				885A79EE26FE8650006E0F04 /* Bild.swift */,
+				885A79F126FE9351006E0F04 /* InserateCell.swift */,
+				880E18C526FF7FB500F555EC /* AutoDetailsView.swift */,
+				880E18C826FF8AC000F555EC /* merkenView.swift */,
+				889F60782700A35C0094CD67 /* mapTab.swift */,
+				88A5ABC6270116760015873A /* infoTab.swift */,
 			);
 			path = VerkaufstDuAuto;
 			sourceTree = "<group>";
@@ -74,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88AD35BE26FC99A500DFE3C0 /* Build configuration list for PBXNativeTarget "VerkaufstDuAuto" */;
 			buildPhases = (
+				D44C10A57AE07158A9779A03 /* [CP] Check Pods Manifest.lock */,
 				88AD35A626FC99A400DFE3C0 /* Sources */,
 				88AD35A726FC99A400DFE3C0 /* Frameworks */,
 				88AD35A826FC99A400DFE3C0 /* Resources */,
+				EF83EC4AB0FFC16692EB2AFE /* [CP] Embed Pods Frameworks */,
+				9BBFD0028C98C55D4E824DF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AD35BA26FC99A500DFE3C0 /* LaunchScreen.storyboard in Resources */,
+				88981B6C26FD10DE0004512B /* GoogleService-Info.plist in Resources */,
 				88AD35B726FC99A500DFE3C0 /* Assets.xcassets in Resources */,
 				88AD35B526FC99A400DFE3C0 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +199,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BBFD0028C98C55D4E824DF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44C10A57AE07158A9779A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerkaufstDuAuto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF83EC4AB0FFC16692EB2AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VerkaufstDuAuto/Pods-VerkaufstDuAuto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88AD35A626FC99A400DFE3C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AD35B226FC99A400DFE3C0 /* ViewController.swift in Sources */,
+				88981B9426FD162F0004512B /* SuchenView.swift in Sources */,
+				88A5ABC7270116760015873A /* infoTab.swift in Sources */,
 				88AD35AE26FC99A400DFE3C0 /* AppDelegate.swift in Sources */,
+				889F60792700A35C0094CD67 /* mapTab.swift in Sources */,
+				880E18C626FF7FB500F555EC /* AutoDetailsView.swift in Sources */,
+				885A79F226FE9351006E0F04 /* InserateCell.swift in Sources */,
+				88981BDC26FD305A0004512B /* BilderWaehlen.swift in Sources */,
+				88AC7F7626FCA546009B1AF0 /* Inserat.swift in Sources */,
+				885A79D226FE8147006E0F04 /* KontaktdatenView.swift in Sources */,
+				880E18C926FF8AC000F555EC /* merkenView.swift in Sources */,
 				88AD35B026FC99A400DFE3C0 /* SceneDelegate.swift in Sources */,
+				885A79EF26FE8650006E0F04 /* Bild.swift in Sources */,
+				88981BAB26FD1CF80004512B /* VerkaufenView.swift in Sources */,
+				885A79D526FE84AB006E0F04 /* fbhandler.swift in Sources */,
+				885A79CF26FE7941006E0F04 /* BilderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +421,19 @@
 		};
 		88AD35BF26FC99A500DFE3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9929A85C6C87D44DF3416C /* Pods-VerkaufstDuAuto.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = applogo;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CMCESWENEQ;
 				INFOPLIST_FILE = VerkaufstDuAuto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberfacility.VerkaufstDuAuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,16 +443,19 @@
 		};
 		88AD35C026FC99A500DFE3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9276FF5D48D118A52A7EC5 /* Pods-VerkaufstDuAuto.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = applogo;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CMCESWENEQ;
 				INFOPLIST_FILE = VerkaufstDuAuto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberfacility.VerkaufstDuAuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
